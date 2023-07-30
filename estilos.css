@@ -114,33 +114,38 @@ html{
     display: block;
     margin: auto;
     width: 80%;
+    max-width: 500px;
     padding: 40px;
-    border: 8px inset #1e1ea3;
+    border: 15px solid #d7e1ff;
     border-radius: 15px;
-    background-color: #cae7f5;
-    color: #ccecfb;
+    background-color: #dbeef7;
+    color: #e5f0f5;
 }
 
 .titulo-secundario{
     text-align: center;
     font-family: Helvetica;
     font-size: 1.5em;
-    color: #2c9211;
+    color: darkblue;
     text-shadow: 3px 3px 3px rgba(32,32,32,0.3);
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .lista{
     font-size: 100%;
     list-style-type: decimal;
-    color: #044fa6;
+    color: black;
 }
 
 .container-foto {
     width: 96%;
-    max-width: 960px;
+    max-width: 300px;
     margin: auto;
     display:block;
+    border: 15px solid #d7e1ff;
+    border-radius: 30px;
+    margin-top: 20px; /* Espacio entre fotos*/
 }
 .Caja_foto{
     width: 100%;
@@ -148,8 +153,7 @@ html{
 }
 .foto_grande{
     width: 100%;
-    padding: 20px;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .leyenda{
